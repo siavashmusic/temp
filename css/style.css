@@ -1,0 +1,110 @@
+body {
+    width: 640px;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content: flex-end;
+  }
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: black;
+  }
+
+/* Medium screens */
+@media all and (max-width: 640px) {
+    .navigation {
+      /* When on medium sized screens, we center it by evenly distributing empty space around items */
+      justify-content: space-around;
+    }
+  }
+  
+.left-side {
+
+    margin: 0 auto;
+}
+
+
+img {
+    border-radius: 50%;
+    min-height: 50%;
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.right-side h1 {
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+}
+
+.right-side {
+    padding: 10px;
+}
+
+.right-side p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main {
+    display: flex;
+    padding: 10px;
+    flex-flow: row wrap;
+
+}
+
+article {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+
+}
+.post {
+    margin-bottom: 20px;
+
+}
+.post h3 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.post-container {
+    display: flex;
+    flex-flow: row wrap;    
+    margin: 5px 8px 8px 10px ;
+}
+.date, .views, .like {
+    margin-right: 10px;
+}
+
+.post p {
+    margin-left: 10px;
+}
+
+
+.social {
+    margin: 0 auto;
+   
+}
+.social a {
+    margin-left: 15px;
+}
