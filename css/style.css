@@ -69,7 +69,7 @@ img {
 }
 
 article {
-    padding-left: 10px;
+    padding-left: 5px;
     padding-right: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -77,27 +77,27 @@ article {
 
 }
 .post {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
 .post h3 {
     font-size: 20px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 8px;
 
 }
 
 .post-container {
     display: flex;
     flex-flow: row wrap;    
-    margin: 5px 8px 8px 10px ;
+    margin: 5px 8px 8px 8px ;
 }
 .date, .views, .like {
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .post p {
-    margin-left: 10px;
+    margin-left: 8px;
 }
 
 
@@ -106,5 +106,5 @@ article {
    
 }
 .social a {
-    margin-left: 15px;
+    margin-left: 8px;
 }
