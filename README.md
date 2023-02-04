@@ -2,4 +2,4 @@
 <p align="center">A clone page of Pizza hut on Deliveroo. Some of the elements/tags are borrowed from the deliveroo.</p>
 
 
-<span> P.S: It's just for <strong>practice purposes</strong> and the copyright belongs to Deliveroo.com</span>
+P.S: It's just for <strong>practice purposes</strong> and the copyright belongs to Deliveroo.com
